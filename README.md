@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
-  <style>
-    /* CSS for formatting and design */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f5f5f5;
-    }
-
-    h1 {
-      color: #2c3e50;
-    }
-
-    p {
-      color: #34495e;
-      font-size: 18px;
-    }
-
-    a {
-      color: #3498db;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-  <!-- HTML elements go here -->
-  <h1>Welcome to My Website</h1>
-  <p>This is a paragraph with some <b>bold</b> and <i>italic</i> text.</p>
-  <p>Visit <a href="https://example.com">this website</a> for more information.</p>
 
-  <h2>Unordered List</h2>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
+    <!-- Title Section -->
+    <header>
+        <h1>Document Title</h1>
+        <p>Author: Your Name</p>
+        <p>Date: December 4, 2024</p>
+    </header>
 
-  <h2>Ordered List</h2>
-  <ol>
-    <li>First Item</li>
-    <li>Second Item</li>
-    <li>Third Item</li>
-  </ol>
+    <!-- Table of Contents -->
+    <nav>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#introduction">1. Introduction</a></li>
+            <li><a href="#body">2. Body</a></li>
+            <li><a href="#conclusion">3. Conclusion</a></li>
+        </ul>
+    </nav>
 
-  <h2>Image Example</h2>
-  <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    <!-- Main Content -->
+    <main>
+        <section id="introduction">
+            <h2>1. Introduction</h2>
+            <p>This is the introduction section of the document. It provides a brief overview of the topic.</p>
+        </section>
 
-  <h2>Button with JavaScript</h2>
-  <button onclick="alertMessage()">Click Me!</button>
+        <section id="body">
+            <h2>2. Body</h2>
+            <p>The body section contains the main content, including detailed explanations, examples, and lists.</p>
+            <h3>Example List</h3>
+            <ul>
+                <li>Point 1</li>
+                <li>Point 2</li>
+                <li>Point 3</li>
+            </ul>
+        </section>
 
-  <script>
-    // JavaScript function for interactivity
-    function alertMessage() {
-      alert('Hello! Welcome to my website.');
-    }
-  </script>
+        <section id="conclusion">
+            <h2>3. Conclusion</h2>
+            <p>The conclusion summarizes the key points discussed in the document.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
